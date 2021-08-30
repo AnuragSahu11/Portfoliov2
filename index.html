@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="hero has-background-black has-text-white-bis is-fullheight">
+      <div class="hero-body">
+        <div id="typed-strings" class="is-invisible">
+          <p>
+            My name is
+            <strong class=" blue">Anurag Sahu</strong>.
+          </p>
+          <p>I am a <em>front-end</em> <strong class='blue'>web developer</strong> .</p>
+          <p>Click to see my works <strong class="main-links"><a href="#projects"> Projects </a></strong><strong class="main-links"><a href="#blogs" class="">Blogs</a></strong> </p>
+        </div>
+        <span id="typed" class="animate"></span>
+      </div>
+    </section>
+    <section id='projects' class="has-background-black">
+      <div class="project-div has-background-white has-text-centered p1">
+        <h1 class="has-text-weight-bold">Stocks</h1>
+        <p class="project-p">Shows Profit or Loss along with respective percentages.</p>
+        <a href="https://anuragsahu11.github.io/mark14/"><button class="button button-h1 is-outlined">Live Project</button></a>
+        <a href="https://github.com/AnuragSahu11/mark14"><button class="button button-h1 is-outlined">Code</button></a> 
+      </div>
+      <div class="project-div has-background-white has-text-centered p2">
+        <h1 class="has-text-weight-bold">Palindrome Birthdays</h1>
+        <p class="project-p">Check whether your birthday is Palindrome.</p>
+       <a href="https://anuragsahu11.github.io/mark13/"><button class="button button-h1 is-outlined">Live Project</button></a> 
+       <a href="https://github.com/AnuragSahu11/mark13"><button class="button button-h1 is-outlined">Code</button></a> 
+      </div>
+      <div class="project-div has-background-white has-text-centered p3">
+        <h1 class="has-text-weight-bold">Triangulate</h1>
+        <p class="project-p">Quiz on triangle along with area,hypotenuse calculator.</p>
+       <a href="https://anuragsahu11.github.io/mark12/"><button class="button button-h1 is-outlined">Live Project</button></a> 
+       <a href="https://github.com/AnuragSahu11/mark12"><button class="button button-h1 is-outlined">Code</button></a> 
+      </div>
+      <div class="project-div has-background-white has-text-centered p4">
+        <h1 class="has-text-weight-bold">Lucky Birthday?</h1>
+        <p class="project-p">Check whether your birthday is lucky or not with this React app.</p>
+       <a href="https://u5egh.csb.app/"><button class="button button-h1 is-outlined">Live Project</button></a> 
+       <a href="https://github.com/AnuragSahu11/mark11"><button class="button button-h1 is-outlined">Code</button></a> 
+      </div>
+      <div class="project-div has-background-white has-text-centered p5">
+        <h1 class="has-text-weight-bold">Cash Register</h1>
+        <p class="project-p">Calculate the change to be paid.</p>
+       <a href="https://anuragsahu11.github.io/mark10/"><button class="button button-h1 is-outlined">Live Project</button></a> 
+       <a href="https://github.com/AnuragSahu11/markNine"><button class="button button-h1 is-outlined">Code</button></a> 
+      </div>
+      <div class="has-text-centered">
+       <a href="projects.html"><button class="button is-black more-button">View More Projects</button></a> 
+      </div>
+    </section>
+    <section id="blogs" class="has-background-black blog-main">
+      <div class="blog has-text-centered">
+        <h1 class="blog-h1">Blog one</h1>
+        <p class="blog-p">Lorem ipsum dolor sit amet consectetur.</p>
+        <button class="blog-button button">Read more</button>
+      </div>
+      <div class="blog has-text-centered">
+        <h1 class="blog-h1">Blog one</h1>
+        <p class="blog-p">Lorem ipsum dolor sit amet consectetur.</p>
+        <button class="blog-button button">Read more</button>
+      </div>
+    </section>
+    <section class="has-background-black">
+      <div class="about-me has-text-centered pb-4">
+        <h1 class="about-me_heading has-text-grey">Contact Me</h1>
+        <a href="https://github.com/AnuragSahu11" class="links"><i class="lni lni-github-original"></i></a>
+        <a href="https://www.linkedin.com/in/anurag-sahu-241520193/" class="links"><i class="lni lni-linkedin-original"></i></a>
+        <a href="https://twitter.com/AnuragS64610278" class="links"><i class="lni lni-twitter-filled"></i></a>
+      </div>
+    </section>
+
+    <script src="typed.js"></script>
+    <script>
+      const disp = document.querySelector("#typed-strings");
+      function animate() {
+        var typed = new Typed("#typed", {
+          stringsElement: "#typed-strings",
+          backSpeed: 20,
+          typeSpeed: 40,
+        });
+      }
+      window.onload = setTimeout(() => {
+        disp.classList.remove("is-invisible");
+        animate();
+      }, 1000);
+    </script>
+    <script src="index.js"></script>
+  </body>
+</html>
