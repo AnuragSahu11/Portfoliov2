@@ -97,3 +97,20 @@ html {
 .blue{
     color:#485fc7;
 }
+@media only screen and (max-width: 800px) {
+  .p1 {
+    min-width: min-content;
+    max-width: 60vw;
+    font-size: 1.7rem;
+  }
+  .p2 {
+    width: 65vw;
+    font-size: 1.7rem;
+    
+  }
+  .p3 {
+    width: 70vw;
+    font-size: 1.7rem;
+    
+  }
+}
