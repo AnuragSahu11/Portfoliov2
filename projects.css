@@ -66,3 +66,22 @@ a:hover {
 .main-links {
   cursor: pointer;
 }
+.navbar {
+  background: #0a0a0a;
+  text-align: center;
+}
+.nav-button {
+  height: 5vh;
+}
+.nav-link {
+  margin: 0 20px;
+  font-family: "Manrope", sans-serif;
+  display: inline-block;
+}
+.nav-p {
+  font-size: 1.4rem;
+  color: #f0ffff;
+}
+.nav-p:hover {
+  color: #485fc7;
+}
