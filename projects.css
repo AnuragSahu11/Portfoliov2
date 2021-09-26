@@ -85,3 +85,10 @@ a:hover {
 .nav-p:hover {
   color: #485fc7;
 }
+#blog{
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  width: 99vw;
+  
+}
