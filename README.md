@@ -4,4 +4,4 @@ It has two pages.
 Tech Stack used-
 - HTML
 - CSS
-- React
+- Javascript
